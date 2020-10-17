@@ -1,0 +1,25 @@
+{
+  "name": "ap-csp-quiz-game-giselebury",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/staten-island-tech/ap-csp-quiz-game-giselebury.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/staten-island-tech/ap-csp-quiz-game-giselebury/issues"
+  },
+  "homepage": "https://github.com/staten-island-tech/ap-csp-quiz-game-giselebury#readme",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.27.0"
+  }
+}
