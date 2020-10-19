@@ -28,7 +28,38 @@ const quiz = [
         img: "/src/media/simone-biles.jpg",
         answers: ["Gabby Douglas", "Shannon Miller", "McKayla Maroney", "Simone Biles"],
         correct: 3
-    }
+    },
+    {
+        question: "Who is this player?",
+        img: "",
+        answers: ["Rob Gronkowski","Travis Kelce","Geroge Kittle","Mark Andrews"],
+        correct: 2
+    },
+    {
+        question: "Who is this player?",
+        img: "",
+        answers: ["Alex Morgan","Rose Lavelle","Megan Rapinoe","Carli Llyod"],
+        correct: 1
+    },
+    {
+        question: "Who is this player?",
+        img: "",
+        answers: ["Giancarlo Stanton","Cody Bellinger","Mookie Betts","Randy Arozarena"],
+        correct: 3
+    },
+    {
+        question: "Who is this player?",
+        img: "",
+        answers: ["Dustin Johnson","Tiger Woods","Phil Mickelson","Justin Thomas"],
+        correct: 0
+    },
+    {
+        question: "Who is this player?",
+        img: "",
+        answers: ["Kobe Bryant","Black Mamba","Gigi Bryant","8&24"],
+        correct: 0
+    },
+
 ];
 
 export {quiz};
