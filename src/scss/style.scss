@@ -1,45 +1,53 @@
-html, body{
-    padding: 0;
-    margin: 0;
-    font-size: 62.5%;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
 }
 
-.quiz-start{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: white;
-
+.quiz-start {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
 }
 
-h1{
-    font-size: 4rem;
-    font-family: 'Oxygen', sans-serif;
+h1 {
+  font-size: 4rem;
+  font-family: "Oxygen", sans-serif;
 }
 
-.quiz{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: white;
+.quiz {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
 }
 
-.quiz-score{
-    color: black;
+.quiz-score {
+  display: table-row;
+  text-align: center;
+  font-size: 4rem;
+  color: green;
 }
 
-.btn{
-    border-radius: 2rem;
-    padding: 2rem 5rem;
-    font-size: 3rem;
-    background-color: lightblue;
-    color: black;
-    border: none;
+h2 {
+  font-size: 6rem;
+  font-family: "Vollkorn", serif;
 }
 
-.btn:hover{
-    background-color: transparent;
-    border: 2px solid lightblue;
-    color: black;
-    background-color: lightblue;
+.btn {
+  border-radius: 2rem;
+  padding: 2rem 5rem;
+  font-size: 3rem;
+  background-color: lightblue;
+  color: black;
+  border: none;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border: 2px solid lightblue;
+  color: black;
+  background-color: lightblue;
 }
