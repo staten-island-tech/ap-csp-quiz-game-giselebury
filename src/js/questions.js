@@ -62,4 +62,15 @@ const quiz = [
 
 ];
 
+const score = 0;
+for(const i=0; i< quiz.length; i++){
+    const response = window.prompt(quiz[i].prompt);
+    if(response == quiz[i].correct){
+        score++;
+        alert("Correct!");
+    } else {
+        alert("Incorrect!");
+    }
+}
+alert("you got" + score + "/"+ quiz.length)
 export {quiz};
