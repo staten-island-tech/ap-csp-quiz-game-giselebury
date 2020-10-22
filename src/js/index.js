@@ -25,7 +25,7 @@ const init = function () {
                 checkAnswer(quizContainer,btn);
             })
         })
-        //DOMSelectors.start.removeEventListener("click", loadHtml);
+        DOMSelectors.start.removeEventListener("click", loadHtml);
     };
 
     DOMSelectors.start.addEventListener("click", loadHtml);
