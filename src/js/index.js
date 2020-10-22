@@ -1,7 +1,7 @@
 import {DOMSelectors} from "./DOM";
 import {quiz} from "./questions";
 
-let numberCorrect = 0;
+//let numberCorrect = 0;
 
 const init = function () {
     let started = false;
@@ -52,6 +52,10 @@ const correctAnswer = function(id) {
     return answer
 }
 
+
+var numberCorrect = 0;
+
+
 function checkAnswer(quizContainer, btn){
     console.log(quizContainer);
     const answer = correctAnswer(btn.id);
@@ -60,7 +64,15 @@ function checkAnswer(quizContainer, btn){
     if (answer === quiz[questionindex].correct) {
         console.log('yes');
         btn.classList.add("btn-correct");
-        numberCorrect++
+        // function numberCorrect() {
+        //     var numberCorrect = document.getElementById('quiz-score').innerHTML;
+        //     numberCorrect++;
+        //     document.getElementById('quiz-score').innerHTML = numberCorrect;
+        // }
+        numberCorrect = numberCorrect + 1;
+        //numberCorrect++
+        //score.text ="Score: " + checkAnswer.numberCorrect;
+        //score.update();
     } else {
         console.log('no');
         btn.classList.add("btn-incorrect");
