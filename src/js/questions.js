@@ -72,7 +72,6 @@ const quiz = [
 
 ];
 
-<<<<<<< HEAD
 /* const score = 0;
 for(const i=0; i< quiz.length; i++){
     const response = window.prompt(quiz[i].prompt);
@@ -84,6 +83,4 @@ for(const i=0; i< quiz.length; i++){
     }
 }
 alert("you got" + score + "/"+ quiz.length) */
-=======
->>>>>>> parent of 134a042... Update questions.js
 export {quiz};

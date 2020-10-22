@@ -1,11 +1,7 @@
 import {DOMSelectors} from "./DOM";
 import {quiz} from "./questions";
 
-<<<<<<< HEAD
 /* const start = function() {
-=======
-const init = function() {
->>>>>>> parent of 22084bc... displayed quiz
     DOMSelectors.start.addEventListener("click", function(e){
         DOMSelectors.start.innerHTML = "";
         DOMSelectors.quiz.insertAdjacentElement("afterbegin",
@@ -16,45 +12,21 @@ const init = function() {
     });
 } */
 
-<<<<<<< HEAD
 
-const displayQuestion = function(){
+
+const init = function(){
     DOMSelectors.start.addEventListener("click", function(e){
-       DOMSelectors.start.innerHTML = ""; 
-        quiz.forEach((item) =>
-        DOMSelectors.start.insertAdjacentHTML("beforeend",
-        `<li class = "quiz-question">${item.question}</li>
-        <li class = "quiz-img quiz-question"><img src="${item.img}" class = "quiz-img" alt=""></li>
-        <label class="container">${item.answers[0]}
-                <input type="radio" checked = "checked" name = "radio" value = "${item.answers[0]}">
-                <span class="checkmark"></span>
-            </label>   
-            <label class="container">${item.answers[1]}
-                <input type="radio" checked = "checked" name = "radio" value = "${item.answers[1]}">
-                <span class="checkmark"></span>
-            </label>   
-            <label class="container">${item.answers[2]}
-                <input type="radio" checked = "checked" name = "radio" value = "${item.answers[2]}">
-                <span class="checkmark"></span>
-            </label>   
-            <label class="container">${item.answers[3]}
-                <input type="radio" checked = "checked" name = "radio" value = "${item.answers[3]}">
-                <span class="checkmark"></span>
-            </label>   
-         `
-
-        ));
-    })
-    
+        DOMSelectors.start.innerHTML = ""; 
+            quiz.forEach((item) =>
+            DOMSelectors.start.insertAdjacentHTML("beforeend",
+            `<li>${item.question}</li>
+            <li class = "quiz-img"><img src="${item.img}" alt=""></li>
+            <button class="answer-btn">${item.answers[0]}</button>
+            <button class="answer-btn">${item.answers[1]}</button>
+            <button class="answer-btn">${item.answers[2]}</button>
+            <button class="answer-btn">${item.answers[3]}</button>
+             `
         
-    
-}
-
-
-
-
-displayQuestion();
-=======
-init();
-
->>>>>>> parent of 22084bc... displayed quiz
+    ));
+})
+}       
