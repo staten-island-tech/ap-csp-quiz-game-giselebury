@@ -1,38 +1,38 @@
 const quiz = [
     {
-        question: "Who is this player?",
-        img: "/src/media/tom-brady.png",
-        answers: ["Tom Brady","Eli Manning","Peyton Manning","Zach Ertz"],
+        question: "Which player has the most Super Bowl win?",
+        //img: "/src/media/tom-brady.png",
+        answers: ["Tom Brady","Eli Manning","Peyton Manning","Joe Namath"],
         correct: 0,
         number: "Tom Brady"
     },
     {
-        question: "Who is this player?",
-        img: "/src/media/messi.jpg",
-        answers:[ "Christiano Ronaldo","Luis Suarez","Lionel Messi","Neymar"],
+        question: "Which of the following team is currently in the World Series?",
+        //img: "/src/media/messi.jpg",
+        answers:[ "New York Yankees","Los Angeles Angels","Tampa Bay Rays","New York Mets"],
         correct: 2,
-        number: "Lionel Messi"
+        number: "Tampa Bay Rays"
     },
     {
-        question: "Who is this player?",
-        img:"/src/media/stephen-curry.jpg",
-        answers: ["Lebron James","Stephen Curry","Kevin Durant", "Michael Jordan"],
+        question: "When is the last time the US Women National Team won the World Cup?",
+        //img:"/src/media/stephen-curry.jpg",
+        answers: ["2018","2019","2015", "2016"],
         correct: 1,
-        number: "Stephen Curry"
+        number: "2019"
     },
     {
-        question: "Who is this player?",
-        img: "/src/media/serena-williams.jpg",
-        answers: ["Venus Williams", "Maria Sharapova", "Serena Williams", "Naomi Osaka"],
+        question: "Which team won the NBA Finals this year?",
+        //img: "/src/media/serena-williams.jpg",
+        answers: ["Los Angeles Clippers", "Brooklyn Nets", "Los Angeles Lakers", "Miami Heat"],
         correct: 2,
-        number: "Serena Williams"
+        number: "Los Angeles Lakers"
     },
     {
-        question: "Who is this player?",
-        img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSimone_Biles&psig=AOvVaw3molkv_HC8ZRPabLPYvVt9&ust=1603426836352000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjTiMqsx-wCFQAAAAAdAAAAABAD",
-        answers: ["Gabby Douglas", "Shannon Miller", "McKayla Maroney", "Simone Biles"],
+        question: "Who won the US Open this year?",
+        //img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSimone_Biles&psig=AOvVaw3molkv_HC8ZRPabLPYvVt9&ust=1603426836352000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjTiMqsx-wCFQAAAAAdAAAAABAD",
+        answers: ["Venus Williams", "Serena Williams", "Victoria Azarenka", "Naomi Osaka"],
         correct: 3,
-        number: "Simone Biles"
+        number: "Naomi Osaka"
     },
     /* {
         question: "Who is this player?",
