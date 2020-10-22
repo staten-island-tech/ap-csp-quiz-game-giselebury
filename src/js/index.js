@@ -111,92 +111,92 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'Who is this player?',
-    img: "/src/media/tom-brady.jpg",
+    question: 'Which player has the most Super Bowl win?',
+    //img: "/src/media/tom-brady.jpg",
     answers: [
       { text: 'Tom Brady', correct: true },
       { text: 'Eli Manning', correct: false },
       { text: 'Peyton Manning', correct: false },
-      { text: 'Zach Ertz', correct: false }
+      { text: 'Joe Namath', correct: false }
     ]
   },
   {
-    question: 'Who is this player?',
+    question: 'Which of the following team is currently in the World Series?',
     answers: [
-      { text: 'Christiano Ronaldo', correct: false },
-      { text: 'Luis Suarez', correct: false },
-      { text: 'Lionel Messi', correct: true },
-      { text: 'Neymar', correct: false }
+      { text: 'New York Yankees', correct: false },
+      { text: 'Los Angeles Angels', correct: false },
+      { text: 'Tampa Bay Rays', correct: true },
+      { text: 'New York Mets', correct: false }
     ]
   },
   {
-    question: 'Who is this player?',
+    question: 'When is the last time the US Women National Team won the World Cup?',
     answers: [
-      { text: 'Lebron James', correct: false },
-      { text: 'Stephen Curry', correct: true },
-      { text: 'Kevin Durant', correct: false },
-      { text: 'Michael Jordan', correct: false }
+      { text: '2018', correct: false },
+      { text: '2019', correct: true },
+      { text: '2015', correct: false },
+      { text: '2016', correct: false }
     ]
   },
   {
-    question: 'Who is this player?',
+    question: 'Which team won the NBA Finals this year?',
+    answers: [
+      { text: 'Los Angeles Clippers', correct: false },
+      { text: 'Brooklyn Nets', correct: false },
+      { text: 'Los Angeles Lakers', correct: true },
+      { text: 'Miami Heat', correct: false }
+    ]
+  },
+  {
+    question: 'Who won the US Open this year?',
     answers: [
       { text: 'Venus Williams', correct: false },
-      { text: 'Maria Sharapova', correct: true },
       { text: 'Serena Williams', correct: false },
-      { text: 'Naomi Osaka', correct: false }
-    ]
-  },
-  {
-    question: 'Who is this player?',
-    answers: [
-      { text: 'Gabby Douglas', correct: false },
-      { text: 'Shannon Miller', correct: false },
-      { text: 'McKayla Maroney', correct: false },
-      { text: 'Simone Biles', correct: true }
-    ]
-  },
-  {
-    question: 'Who is this player?',
-    answers: [
-      { text: 'Rob Gronkowski', correct: false },
-      { text: 'Travis Kelce', correct: false },
-      { text: 'Geroge Kittle', correct: true },
-      { text: 'Mark Andrews', correct: false }
-    ]
-  },
-  {
-    question: 'Who is this player?',
-    answers: [
-      { text: 'Alex Morgan', correct: false },
-      { text: 'Rose Lavelle', correct: true },
-      { text: 'Megan Rapinoe', correct: false },
-      { text: 'Carli Llyod', correct: false }
-    ]
-  },
-  {
-    question: 'Who is this player?',
-    answers: [
-      { text: 'Giancarlo Stanton', correct: false },
-      { text: 'Cody Bellinger', correct: false },
-      { text: 'Mookie Betts', correct: false },
-      { text: 'Randy Arozarena', correct: true }
-    ]
-  },
-  {
-    question: 'Who is this player?',
-    answers: [
-      { text: 'Dustin Johnson', correct: true },
-      { text: 'Tiger Woods', correct: false },
-      { text: 'Phil Mickelson', correct: false },
-      { text: 'Justin Thomas', correct: false }
-    ]
-  },
-  {
-    question: 'Who is this player?',
-    answers: [
-      { text: 'Kobe Bryant', correct: true },
-      { text: '"Gigi Bryant', correct: true },
+      { text: 'Victoria Azarenka', correct: false },
+      { text: 'Naomi Osaka', correct: true }
     ]
   }
+  // {
+  //   question: 'Who is this player?',
+  //   answers: [
+  //     { text: 'Rob Gronkowski', correct: false },
+  //     { text: 'Travis Kelce', correct: false },
+  //     { text: 'Geroge Kittle', correct: true },
+  //     { text: 'Mark Andrews', correct: false }
+  //   ]
+  // },
+  // {
+  //   question: 'Who is this player?',
+  //   answers: [
+  //     { text: 'Alex Morgan', correct: false },
+  //     { text: 'Rose Lavelle', correct: true },
+  //     { text: 'Megan Rapinoe', correct: false },
+  //     { text: 'Carli Llyod', correct: false }
+  //   ]
+  // },
+  // {
+  //   question: 'Who is this player?',
+  //   answers: [
+  //     { text: 'Giancarlo Stanton', correct: false },
+  //     { text: 'Cody Bellinger', correct: false },
+  //     { text: 'Mookie Betts', correct: false },
+  //     { text: 'Randy Arozarena', correct: true }
+  //   ]
+  // },
+  // {
+  //   question: 'Who is this player?',
+  //   answers: [
+  //     { text: 'Dustin Johnson', correct: true },
+  //     { text: 'Tiger Woods', correct: false },
+  //     { text: 'Phil Mickelson', correct: false },
+  //     { text: 'Justin Thomas', correct: false }
+  //   ]
+  // },
+  // {
+  //   question: 'Who is this player?',
+  //   answers: [
+  //     { text: 'Kobe Bryant', correct: true },
+  //     { text: '"Gigi Bryant', correct: true },
+  //   ]
+  // }
 ]
