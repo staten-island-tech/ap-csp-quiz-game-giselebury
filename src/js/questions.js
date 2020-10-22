@@ -1,38 +1,38 @@
 const quiz = [
     {
         question: "Who is this player?",
-        img: "/src/media/tom-brady.jpghttps://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTom_Brady&psig=AOvVaw1r57CJEQJEPZpGtW7Wd9pV&ust=1603417922655000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOijo42Lx-wCFQAAAAAdAAAAABAD",
+        img: "/src/media/tom-brady.png",
         answers: ["Tom Brady","Eli Manning","Peyton Manning","Zach Ertz"],
         correct: 0,
-        number: 1
+        number: "Tom Brady"
     },
     {
         question: "Who is this player?",
         img: "/src/media/messi.jpg",
         answers:[ "Christiano Ronaldo","Luis Suarez","Lionel Messi","Neymar"],
         correct: 2,
-        number: 2
+        number: "Lionel Messi"
     },
     {
         question: "Who is this player?",
         img:"/src/media/stephen-curry.jpg",
         answers: ["Lebron James","Stephen Curry","Kevin Durant", "Michael Jordan"],
         correct: 1,
-        number: 3
+        number: "Stephen Curry"
     },
     {
         question: "Who is this player?",
         img: "/src/media/serena-williams.jpg",
         answers: ["Venus Williams", "Maria Sharapova", "Serena Williams", "Naomi Osaka"],
         correct: 2,
-        number: 4
+        number: "Serena Williams"
     },
     {
         question: "Who is this player?",
-        img: "/src/media/simone-biles.jpg",
+        img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSimone_Biles&psig=AOvVaw3molkv_HC8ZRPabLPYvVt9&ust=1603426836352000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCIjTiMqsx-wCFQAAAAAdAAAAABAD",
         answers: ["Gabby Douglas", "Shannon Miller", "McKayla Maroney", "Simone Biles"],
         correct: 3,
-        number: 5
+        number: "Simone Biles"
     },
     /* {
         question: "Who is this player?",
