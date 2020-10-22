@@ -32,7 +32,6 @@ h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  list-style: none;
 }
 
 .quiz-score {
@@ -50,6 +49,7 @@ h1 {
 //   font-family: "Vollkorn", serif;
 // }
 
+<<<<<<< HEAD
 .quiz-question{
   display: flex;
   align-items: center;
@@ -60,6 +60,8 @@ h1 {
 
 }
 
+=======
+>>>>>>> parent of 22084bc... displayed quiz
 .btn {
   border-radius: 2rem;
   padding: 2rem 5rem;
@@ -70,15 +72,20 @@ h1 {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .btn:hover {
 =======
 .btn .answer-btn:hover {
 >>>>>>> parent of b962664... added hover
+=======
+.btn:hover {
+>>>>>>> parent of 22084bc... displayed quiz
   background-color: transparent;
   border: 2px solid lightblue;
   color: black;
   background-color: lightblue;
 }
+<<<<<<< HEAD
 
 
 .quiz-img{
@@ -138,3 +145,5 @@ h1 {
   background: white;
 }
  */
+=======
+>>>>>>> parent of 22084bc... displayed quiz

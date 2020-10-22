@@ -1,13 +1,22 @@
 import {DOMSelectors} from "./DOM";
 import {quiz} from "./questions";
 
+<<<<<<< HEAD
 /* const start = function() {
+=======
+const init = function() {
+>>>>>>> parent of 22084bc... displayed quiz
     DOMSelectors.start.addEventListener("click", function(e){
-        
-        
+        DOMSelectors.start.innerHTML = "";
+        DOMSelectors.quiz.insertAdjacentElement("afterbegin",
+        `<div class="quiz-score">
+        <h2>Score</h2>
+        <p>0</p>
+    </div>`)
     });
 } */
 
+<<<<<<< HEAD
 
 const displayQuestion = function(){
     DOMSelectors.start.addEventListener("click", function(e){
@@ -45,3 +54,7 @@ const displayQuestion = function(){
 
 
 displayQuestion();
+=======
+init();
+
+>>>>>>> parent of 22084bc... displayed quiz
