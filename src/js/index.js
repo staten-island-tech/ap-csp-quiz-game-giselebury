@@ -1,25 +1,37 @@
 import {DOMSelectors} from "./DOM";
 import {quiz} from "./questions";
 
-const start = function() {
+/* const start = function() {
     DOMSelectors.start.addEventListener("click", function(e){
         
         
     });
-}
+} */
 
 
-const init = function(){
+const displayQuestion = function(){
     DOMSelectors.start.addEventListener("click", function(e){
        DOMSelectors.start.innerHTML = ""; 
         quiz.forEach((item) =>
         DOMSelectors.start.insertAdjacentHTML("beforeend",
-        `<li>${item.question}</li>
-        <li class = "quiz-img"><img src="${item.img}" alt=""></li>
-        <button class="answer-btn">${item.answers[0]}</button>
-        <button class="answer-btn">${item.answers[1]}</button>
-        <button class="answer-btn">${item.answers[2]}</button>
-        <button class="answer-btn">${item.answers[3]}</button>
+        `<li class = "quiz-question">${item.question}</li>
+        <li class = "quiz-img quiz-question"><img src="${item.img}" class = "quiz-img" alt=""></li>
+        <label class="container">${item.answers[0]}
+                <input type="radio" checked = "checked" name = "radio" value = "${item.answers[0]}">
+                <span class="checkmark"></span>
+            </label>   
+            <label class="container">${item.answers[1]}
+                <input type="radio" checked = "checked" name = "radio" value = "${item.answers[1]}">
+                <span class="checkmark"></span>
+            </label>   
+            <label class="container">${item.answers[2]}
+                <input type="radio" checked = "checked" name = "radio" value = "${item.answers[2]}">
+                <span class="checkmark"></span>
+            </label>   
+            <label class="container">${item.answers[3]}
+                <input type="radio" checked = "checked" name = "radio" value = "${item.answers[3]}">
+                <span class="checkmark"></span>
+            </label>   
          `
 
         ));
@@ -29,4 +41,7 @@ const init = function(){
     
 }
 
-init();
+
+
+
+displayQuestion();
