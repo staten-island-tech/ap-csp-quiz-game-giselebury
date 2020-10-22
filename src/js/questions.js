@@ -34,53 +34,10 @@ const quiz = [
         correct: 3,
         number: 5
     },
-    /* {
-        question: "Who is this player?",
-        img: "",
-        answers: ["Rob Gronkowski","Travis Kelce","Geroge Kittle","Mark Andrews"],
-        correct: 2,
-        number: 6
-    },
-    {
-        question: "Who is this player?",
-        img: "",
-        answers: ["Alex Morgan","Rose Lavelle","Megan Rapinoe","Carli Llyod"],
-        correct: 1,
-        number: 7
-    },
-    {
-        question: "Who is this player?",
-        img: "",
-        answers: ["Giancarlo Stanton","Cody Bellinger","Mookie Betts","Randy Arozarena"],
-        correct: 3,
-        number: 8
-    },
-    {
-        question: "Who is this player?",
-        img: "",
-        answers: ["Dustin Johnson","Tiger Woods","Phil Mickelson","Justin Thomas"],
-        correct: 0,
-        number: 9
-    },
-    {
-        question: "Who is this player?",
-        img: "",
-        answers: ["Kobe Bryant","Black Mamba","Gigi Bryant","8&24"],
-        correct: 0,
-        number:10
-    } */,
 
 ];
 
-/* const score = 0;
-for(const i=0; i< quiz.length; i++){
-    const response = window.prompt(quiz[i].prompt);
-    if(response == quiz[i].correct){
-        score++;
-        alert("Correct!");
-    } else {
-        alert("Incorrect!");
-    }
-}
-alert("you got" + score + "/"+ quiz.length) */
+
+
+
 export {quiz};

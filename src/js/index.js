@@ -1,6 +1,8 @@
 import {DOMSelectors} from "./DOM";
 import {quiz} from "./questions";
 
+let numberCorrect = 0;
+
 const init = function () {
     let started = false;
 
@@ -51,7 +53,6 @@ const correctAnswer = function(id) {
 }
 
 function checkAnswer(quizContainer, btn){
-    let numberCorrect = 0;
     console.log(quizContainer);
     const answer = correctAnswer(btn.id);
     const questionindex = quizContainer.id - 1;
@@ -65,9 +66,12 @@ function checkAnswer(quizContainer, btn){
         btn.classList.add("btn-incorrect");
     }
     console.log(numberCorrect);
-DOMSelectors.score.insertAdjacentHTML("beforeend",
-`<p>${numberCorrect}/5</p>`
-)
+    
+
+    DOMSelectors.score.insertAdjacentHTML("beforeend",
+    `<p>${numberCorrect}/5</p>`)
+         
+    
 }
 
 
