@@ -51,6 +51,10 @@ const correctAnswer = function(){
     
     
 }
+
+const checkAnswer = function(){
+    correctAnswer()
+}
     
     
  
