@@ -7,7 +7,7 @@ const init = function () {
     function loadHtml(){
         DOMSelectors.start.innerHTML = "";
         quiz.forEach((item) =>
-        DOMSelectors.start.insertAdjacentElement("beforeend",
+        DOMSelectors.start.insertAdjacentHTML("beforeend",
         `<div class = "quiz" id = ${item.number}>
         <li class = "quiz-question">${item.question}</li>
         <button class="answer-btn" id = "answer-1">${item.answers[0]}</button>
@@ -51,6 +51,7 @@ const correctAnswer = function(id) {
 }
 
 function checkAnswer(quizContainer, btn){
+    let numberCorrect = 0;
     console.log(quizContainer);
     const answer = correctAnswer(btn.id);
     const questionindex = quizContainer.id - 1;
@@ -58,16 +59,20 @@ function checkAnswer(quizContainer, btn){
     if (answer === quiz[questionindex].correct) {
         console.log('yes');
         btn.classList.add("btn-correct");
+        numberCorrect++
     } else {
         console.log('no');
         btn.classList.add("btn-incorrect");
     }
+    console.log(numberCorrect);
+DOMSelectors.score.insertAdjacentHTML("beforeend",
+`<p>${numberCorrect}/5</p>`
+)
 }
 
 
 
 
+
+
 init();
-loadHtml();
-correctAnswer();
-checkAnswer(); 
