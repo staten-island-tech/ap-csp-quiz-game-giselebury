@@ -79,7 +79,7 @@ function checkAnswer(quizContainer, btn){
     }
     console.log(numberCorrect);
     
-
+    DOMSelectors.score.innerHTML = "";
     DOMSelectors.score.insertAdjacentHTML("beforeend",
     `<p>${numberCorrect}/5</p>`)
          
